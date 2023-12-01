@@ -1,0 +1,89 @@
+.itemTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1F1B26;
+    padding: 10px 0;
+}
+
+.itemTop:hover{
+    background-color: rgba(71, 64, 83, 0.2);
+}
+
+.item__person{
+    display: flex;
+    align-items: center;
+}
+
+.person_img{
+    position: relative;
+}
+
+.person_ava{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #2A2533;
+    border-radius: 50%;
+}
+
+.verificado_img{
+    position: absolute;
+    width: 20px;
+    height: 20px;  
+    top: 22px;
+    left: 22px
+}
+
+.person_information{
+    margin-left: 12px;
+}
+
+.person_information h4{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+}
+
+.person_information p{
+    color: #7F35FF;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.item__price{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    row-gap: 4px;
+}
+
+.item__price_ethereum{
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+    margin-right: 7px;
+}
+
+.item__price_ethereum p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.item__price_percent{
+    display: flex;
+}
+
+.item__price_percent p{
+    color:#EF4870;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+@media (max-width: 390px){
+
+}

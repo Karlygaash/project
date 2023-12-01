@@ -1,0 +1,371 @@
+.section_4{
+    position: relative;
+}
+
+.section__container{
+    max-width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__content h1{
+    color: white;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.section__content p{
+    color: white;
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.section__content form{
+    border-radius: 30px;
+    border: 1px solid #2A2533;
+    margin-top: 48px;
+    padding: 8px 8px 8px 24px;
+    display: flex;
+    justify-content: space-between;
+    width: 342px;
+    align-items: center;
+    background-color: #0B090D;
+}
+
+.section__content form input{
+    font-size: 14px;
+    color: white;
+    opacity: 0.5;
+    font-weight: 400;
+    line-height: 140%;
+    border: none;
+    background: transparent;
+}
+
+.section__content form button{
+    padding: 8px 16px;
+    border-radius: 22px;
+    background-color: #352E40;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 140%;
+    color: white;
+}
+
+svg{
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: var(--border-border, #1F1B26);
+    position: absolute;
+    z-index: 0;
+}
+
+.svg1{
+    left: 52px;
+    top: 0;
+    opacity: 0.3;
+}
+
+.svg2{
+    left: 120px;
+    top: 0;
+    opacity: 0.5;
+}
+
+.svg3{
+    left: 192px;
+    top: 0;
+    opacity: 0.7;
+}
+
+.svg4{
+    left: 249px;
+    top:30px;
+    opacity: 0.5;
+}
+
+.svg5{
+    left: 309px;
+    top: 86px;
+}
+
+.svg6{
+    left: 357px;
+    top: 131px
+}
+
+.svg7{
+    left: 399px;
+    top: 170px
+}
+
+.svg8{
+    left: 434px;
+    top: 203px;
+}
+.svg9{
+    left: 474px;
+    top: 240px;
+}
+.svg10{
+    left: 505px;
+    top: 272px;
+}
+
+.blur_bottom1{
+    background: linear-gradient(0deg,rgba(11, 9, 13, 0.8) 60%, rgba(127, 53, 255, 0) 0%);
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    bottom: -100px;
+    right: 200px;
+}
+
+.blur_bottom2{
+    background: linear-gradient(0deg,rgba(11, 9, 13, 0.8) 80%, rgba(127, 53, 255, 0) 0%);
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    bottom: -40px;
+    right: 50px;
+}
+
+.blur_top{
+    background: linear-gradient(0deg,rgba(11, 9, 13, 0.8) 100%, rgba(127, 53, 255, 0) 0%);
+    width: 700px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    right: 150px;
+}
+
+.gif_avatar1{
+    position: absolute;
+    top: 78px;
+    left: 720px;
+    width: 101px;
+    height: 101px;
+    border-radius: 50%;
+    border: 4px solid #2A2533;
+    transform: rotate(20.304deg);
+}
+
+.avatar5{
+    width: 96px;
+    height: 96px;
+    transform: rotate(26.89deg);
+    border-radius: 50%;
+    border: 4px solid #5EEBFF;
+    position: absolute;
+    top:195px;
+    right: 270px;
+}
+
+.gif_avatar2{
+    position: absolute;
+    top: 278px;
+    left: 250px;
+    width: 101px;
+    height: 101px;
+    border-radius: 50%;
+    border: 4px solid #DD00C6;
+    transform: rotate(-7deg);
+}
+
+.gif_avatar3{
+    position: absolute;
+    top: 535px;
+    right: 360px;
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    border: 4px solid #FF6CFF;
+    transform: rotate(21deg);
+}
+
+.avatar6{
+    width: 105px;
+    height: 105px;
+    transform: rotate(-14deg);
+    border-radius: 50%;
+    border: 4px solid #5EEBFF;;
+    position: absolute;
+    top:490px;
+    left: 41px;
+    opacity: 0.4;
+}
+
+.avatar7{
+    width: 40px;
+    height: 40px;
+    transform: rotate(7.4deg);
+    border-radius: 50%;
+    border: 2px solid #2A2533;
+    position: absolute;
+    top:590px;
+    left: 370px;
+}
+
+.avatar8{
+    width: 77px;
+    height: 77px;
+    transform: rotate(-13deg);
+    border-radius: 50%;
+    border: 4px solid #5F21CC;
+    position: absolute;
+    top:412px;
+    right: 85px;
+    opacity: 0.6;
+}
+
+@media (max-width: 390px){
+    .section__content h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .section__content p{
+        font-size: 14px;
+        line-height: 16px;
+        width: 312px;
+        text-align: center;
+    }
+
+    .svg1{
+        display: none;
+    }
+    
+    .svg2{
+        display: none;
+    }
+    
+    .svg3{
+        display: none;
+    }
+    
+    .svg4{
+        display: none;
+    }
+    
+    .svg5{
+        left: -196px;
+        top: 42px;
+        opacity: 0.3;
+    }
+    
+    .svg6{
+        left: -148px;
+        top: 85px;
+        opacity: 0.5;
+    }
+    
+    .svg7{
+        left: -106px;
+        top: 120px;
+        opacity: 0.7;
+    }
+    
+    .svg8{
+        left: -71px;
+        top: 155px;
+    }
+    .svg9{
+        left: -31px;
+        top: 190px;
+    }
+    .svg10{
+        left: 0px;
+        top: 223px;
+    }
+
+    .blur_bottom1{
+        display: none;
+    }
+    
+    .blur_bottom2{
+        width: 150px;
+        height: 150px;
+        bottom: 40px;
+        right: 0px;
+    }
+    
+    .blur_top{
+        width: 200px;
+        height: 150px;
+        top: 0px;
+        right: 0px;
+    }
+
+    .gif_avatar2{
+        display: none;
+    }
+
+    .gif_avatar3{
+        display: none;
+    }
+
+    .avatar6{
+        width: 71px;
+        height: 71px;
+        transform: rotate(15deg);
+        border-radius: 50%;
+        border: 3px solid #2A2533;
+        position: absolute;
+        top:545px;
+        left: 60px;
+        opacity: 0.7;
+    }
+
+    .gif_avatar1{
+        top: 178px;
+        left: 280px;
+        width: 44px;
+        height: 44px;
+        border: 2px solid #2A2533;
+        transform: rotate(-16.4deg);
+        opacity: 0.7;
+    }
+
+    .avatar5{
+        width: 69px;
+        height: 69px;
+        transform: rotate(19.89deg);
+        border: 3px solid #2A2533;
+        position: absolute;
+        top:170px;
+        left: 160px;
+    }
+
+    .avatar7{
+        width: 44px;
+        height: 44px;
+        transform: rotate(-16.4deg);
+        border: 3px solid #2A2533;
+        top:230px;
+        left: 30px;
+        opacity: 0.7;
+    }
+    
+    .avatar8{
+        width: 56px;
+        height: 56px;
+        transform: rotate(-0.53deg);
+        border: 3px solid #2A2533;
+        top:550px;
+        right: 65px;
+    }
+}

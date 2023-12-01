@@ -1,0 +1,109 @@
+.section_2{
+    margin-top: 190px;
+    padding-bottom: 90px;
+}
+
+.section_2 .container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 150px;
+}
+
+.section_2 .container .container__header{
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.section_2 .container .container__header .header__title h3{
+    color: white;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.section_2 .container .container__header .header__title p{
+    color: #7F35FF;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.section_2 .container .container__header .header__list{
+    display: flex;
+    column-gap: 12px;
+}
+
+.section_2 .container .container__header .header__list p{
+    padding: 8px 16px 8px 16px;
+    border: 1px solid #2A2533;
+    border-radius: 18px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+}
+
+.section_2 .container .container__header .header__list p:hover{
+    border: 1px solid #7F35FF;
+}
+
+.section_2 .container .item__list{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    column-gap: 24px;
+    margin-top: 24px;
+}
+
+@media (max-width: 390px){
+    .section_2{
+        padding-bottom: 30px;
+    }
+
+    .section_2 .container{
+        padding-left: 30px;
+    }
+
+    .section_2 .container .container__header .header__title h3{
+        font-size: 24px;
+        line-height: 40px;
+    }
+    
+    .section_2 .container .container__header .header__title p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .section_2 .container .container__header{
+        margin:0;
+        padding-right: 30px;
+    }
+
+    .section_2 .container .container__header{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .section_2 .container .container__header .header__list{
+        column-gap: 8px;
+        margin-top: 16px;
+    }
+
+    .section_2 .container .container__header .header__list p:nth-child(6){
+        width: 83px;
+    }
+
+    .section_2 .container .container__header .header__list p{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .section_2 .container .item__list{
+        display: flex;
+        column-gap: 16px;
+        margin-top: 29px;
+    }
+}
